@@ -8,7 +8,6 @@ class SessionsController < ApplicationController
       log_in user
       redirect_to user
     else
-      # create an error page
       flash.now[:danger] = 'Invalid email/password combination' # todo
       render 'new'
     end

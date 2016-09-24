@@ -22,3 +22,6 @@
 
 # RubyMine
 .idea
+
+# Spring
+/spring/*.pid
